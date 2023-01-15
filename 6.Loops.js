@@ -51,3 +51,26 @@ const fruits = ["apple", "orange", "cherry"];
 fruits.forEach(f => {
     console.log(f)
 });
+
+const arr = [25,50,100,200,400,800]
+console.log(arr)
+arr.forEach(function(item, index, array){
+    console.log("Index: " + index + " Test " + item)
+})
+
+// For..in loop on Object Properties
+let periodicTable = {
+    H : "Hydrogen",
+    He : "Helium",
+    Li : "Lithium",
+    Be : "Beryllium",
+    B : "Boron",
+    C : "Carbon",
+    N : "Nitrogen",
+    O : "Oxygen"
+}
+
+for (const key in periodicTable) {
+   //console.log(key)
+   console.log(key + "\t" + periodicTable[key])
+}

@@ -81,4 +81,26 @@ let t = null;
 console.log(typeof (t))  // Object
 console.log(t)
 
+/*
+Search items in Array - INCLUDES
+Find first index of an item - INDEXOF
+Find last index of an item - LASTINDEXOF
+*/
+console.log(".....................Array ")
+const planets = [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Venus"
+  ];
+  console.log(typeof (planets))
+  console.log(planets.includes("Earth"))
+  console.log(planets.indexOf("Venus"))
+  console.log(planets.lastIndexOf("Venus"))
+
 

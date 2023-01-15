@@ -11,4 +11,4 @@ function myFunc(a = 10, b = 20) {
     return a + b
 }
 
-console.log(myFunc(undefined, 6)) // print 16
+console.log(myFunc(undefined, 6)) // print 16g
